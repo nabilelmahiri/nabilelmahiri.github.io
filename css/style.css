@@ -363,6 +363,7 @@
 .pb-100 {padding-bottom: 100px;}
 .pb-150 {padding-bottom: 150px;}
 .pb-200 {padding-bottom: 200px;}
+.mt-20 {margin-top: 20px;}
 .mt-70 {margin-top: 70px;}
 .mt-95 {margin-top: 95px;}
 .mt-150 {margin-top: 150px;}
@@ -7237,7 +7238,7 @@ body .solid-button-one:hover,.navbar .navbar-toggler,.faq-tab-wrapper .faq-panel
 .blog-details-fg .blog-fg-data .blog-img-gallery {padding: 50px 0 80px;}
 .blog-details-fg .blog-fg-data .blog-img-gallery img {width: 100%;}
 .blog-details-fg .blog-fg-data .video-banner-blog {
-  background: url(../images/blog/34.jpg) no-repeat center;
+  background: url(../images/34.jpg) no-repeat center;
   background-size: cover;
   background-attachment: fixed;
   height: 615px;
@@ -10055,3 +10056,36 @@ display: block;
 transform: rotate(-90deg);
 }
 #theme-banner-one .down-arrow:hover {color:#ff3b47 ;background: #fff}
+
+
+.howto-vote .howto-vote-banner {
+  /*padding: 480px 0 149px;*/
+  padding: 300px 0 149px;
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+  animation: imageBgAnim 50s infinite linear alternate;
+}
+
+.howto-vote .howto-vote-banner .blog-title {
+  font-family: 'CircularStdmed';
+  font-size: 48px;
+  line-height: 55px;
+  color: #fff;
+  width: 70%;
+}
+
+.howto-vote  .blog-custom-container {
+  max-width: 980px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.howto-vote .blog-fg-data .video-banner-blog {
+  background: url(../images/34.jpg) no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 615px;
+  position: relative;
+  margin: 20px 0 0px;
+}

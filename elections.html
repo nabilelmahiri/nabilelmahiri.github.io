@@ -31,6 +31,14 @@
 			<script src="vendor/html5shiv.js"></script>
 			<script src="vendor/respond.js"></script>
 		<![endif]-->	
+
+		<style>
+			canvas {
+				-moz-user-select: none;
+				-webkit-user-select: none;
+				-ms-user-select: none;
+			}
+		</style>
 	</head>
 
 	<body>
@@ -75,7 +83,7 @@
 			============================================== 
 			-->
 			<div class="theme-main-menu theme-menu-one">
-				<div class="logo" ><a href="index.html"><img src="images/logo/MI Logo sans Amz left.png" alt="" ></a></div>
+				<div class="logo" ><a href="accueil.html"><img src="images/logo/MI Logo sans Amz left.png" alt="" ></a></div>
 				<nav id="mega-menu-holder" class="navbar navbar-expand-lg">
 					<div  class="container nav-container">
 						<button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -84,13 +92,13 @@
 					   <div class="collapse navbar-collapse" id="navbarSupportedContent">
 					   		<ul class="navbar-nav">
 							    <li class="nav-item active dropdown">
-							    	<a href="index.html" class="nav-link dropdown-toggle" data-toggle="dropdown">الرئيسية</a>
+							    	<a href="accueil.html" class="nav-link dropdown-toggle" data-toggle="dropdown">الرئيسية</a>
 							    	<ul class="dropdown-menu mega-container">
 								        <li>
 								            <div class="clearfix">
 								              	<div class="row">
 									                <div class="col-lg-2 col-md-4 col-sm-6 mt-3 mb-3 mt-lg-3 mb-lg-3">
-									                	<a href="index.html" class="img-box">
+									                	<a href="elections.html" class="img-box">
 									                		<span class="img"><img src="images/menu-img/cs.jpg" alt=""></span>
 									                		<span class="text">النتائج المتعلقة بالانتخابات التشريعية الأخيرة															</span>
 									                	</a>
@@ -104,7 +112,7 @@
 									                	</a>
 									                </div>
 									                <div class="col-lg-2 col-md-4 col-sm-6 mt-3 mb-3 mt-lg-3 mb-lg-3">
-									                	<a href="#" class="img-box">
+									                	<a href="accueil.html#report" class="img-box">
 									                		<span class="img"><img src="images/menu-img/cs.jpg" alt=""></span>
 									                		<span class="text">آخر المستجدات
 															</span>
@@ -130,7 +138,7 @@
 													</div>
  
 													<div class="col-lg-2 col-md-4 col-sm-6 mt-3 mb-3 mt-lg-3 mb-lg-3 mr-auto">
-									                	<a href="#" class="img-box">
+									                	<a href="index-app.html" class="img-box">
 									                		<span class="img"><img src="images/menu-img/cs.jpg" alt=""></span>
 									                		<span class="text">تطبيق MonBV
 															</span>
@@ -145,11 +153,11 @@
 						            <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown">ﺍﻟﻨﺎﺧﺏ</a>
 						            <ul class="dropdown-menu">
 							            <li >
-							              	<a class="dropdown-item dropdown-toggle" href="#" data-toggle="dropdown">التعرف على مكتب التصويت											</a>
+							              	<a class="dropdown-item" href="mon-bureau-vote.html"  >التعرف على مكتب التصويت											</a>
 			 
 							            </li>
 							            <li >
-							              	<a class="dropdown-item dropdown-toggle" href="#" data-toggle="dropdown">كيفية التصويت											</a>
+							              	<a class="dropdown-item" href="comment-voter.html"  >كيفية التصويت											</a>
  
 							            </li>
 						            </ul> <!-- /.dropdown-menu -->
@@ -161,48 +169,48 @@
 							              	<a class="dropdown-item dropdown-toggle" href="#" data-toggle="dropdown">الانتخابات التشريعية</a>
 							              	<ul class="dropdown-menu">
 								                <li><a href="elections.html" class="dropdown-item">2021</a></li>
-								                <li><a href="#" class="dropdown-item">2016</a></li>
-								                <li><a href="#" class="dropdown-item">2011</a></li> 
+								                <li><a href="elections.html" class="dropdown-item">2016</a></li>
+								                <li><a href="elections.html" class="dropdown-item">2011</a></li> 
 							                </ul>
 										</li>
 										<li class="dropdown-submenu dropdown">
 											<a class="dropdown-item dropdown-toggle" href="#" data-toggle="dropdown">الانتخابات الجهوية</a>
 											<ul class="dropdown-menu">
-											  <li><a href="#" class="dropdown-item">2021</a></li>
-											  <li><a href="#" class="dropdown-item">2016</a></li>
-											  <li><a href="#" class="dropdown-item">2011</a></li> 
+											  <li><a href="elections.html" class="dropdown-item">2021</a></li>
+											  <li><a href="elections.html" class="dropdown-item">2016</a></li>
+											  <li><a href="elections.html" class="dropdown-item">2011</a></li> 
 										  </ul>
 									  </li>
 									  <li class="dropdown-submenu dropdown">
 										<a class="dropdown-item dropdown-toggle" href="#" data-toggle="dropdown">الانتخابات الجماعية</a>
 										<ul class="dropdown-menu">
-										  <li><a href="#" class="dropdown-item">2021</a></li>
-										  <li><a href="#" class="dropdown-item">2016</a></li>
-										  <li><a href="#" class="dropdown-item">2011</a></li> 
+										  <li><a href="elections.html" class="dropdown-item">2021</a></li>
+										  <li><a href="elections.html" class="dropdown-item">2016</a></li>
+										  <li><a href="elections.html" class="dropdown-item">2011</a></li> 
 									  </ul>
 								  </li>
 								  <li class="dropdown-submenu dropdown">
 									<a class="dropdown-item dropdown-toggle" href="#" data-toggle="dropdown">انتخابات الغرف المهنية</a>
 									<ul class="dropdown-menu">
-									  <li><a href="#" class="dropdown-item">2021</a></li>
-									  <li><a href="#" class="dropdown-item">2016</a></li>
-									  <li><a href="#" class="dropdown-item">2011</a></li> 
+									  <li><a href="elections.html" class="dropdown-item">2021</a></li>
+									  <li><a href="elections.html" class="dropdown-item">2016</a></li>
+									  <li><a href="elections.html" class="dropdown-item">2011</a></li> 
 								  </ul>
 							  </li>
 							  <li class="dropdown-submenu dropdown">
 								<a class="dropdown-item dropdown-toggle" href="#" data-toggle="dropdown">انتخابات مجالس العمالات والأقاليم</a>
 								<ul class="dropdown-menu">
-								  <li><a href="#" class="dropdown-item">2021</a></li>
-								  <li><a href="#" class="dropdown-item">2016</a></li>
-								  <li><a href="#" class="dropdown-item">2011</a></li> 
+								  <li><a href="elections.html" class="dropdown-item">2021</a></li>
+								  <li><a href="elections.html" class="dropdown-item">2016</a></li>
+								  <li><a href="elections.html" class="dropdown-item">2011</a></li> 
 							  </ul>
 						  </li>
 						  <li class="dropdown-submenu dropdown">
 							<a class="dropdown-item dropdown-toggle" href="#" data-toggle="dropdown">انتخابات مجلس المستشارين</a>
 							<ul class="dropdown-menu">
-							  <li><a href="#" class="dropdown-item">2021</a></li>
-							  <li><a href="#" class="dropdown-item">2016</a></li>
-							  <li><a href="#" class="dropdown-item">2011</a></li> 
+							  <li><a href="elections.html" class="dropdown-item">2021</a></li>
+							  <li><a href="elections.html" class="dropdown-item">2016</a></li>
+							  <li><a href="elections.html" class="dropdown-item">2011</a></li> 
 						  </ul>
 					  </li>
 						            </ul> <!-- /.dropdown-menu -->
@@ -237,8 +245,8 @@
 								</button>
 								<div class="dropdown-menu dropdown-menu-right">
 									<ul class="ct-language__dropdown">
-										<li><a href="#googtrans(ar|fr)" class="lang-en lang-select" data-lang="fr">Français</a></li>
-										<li><a href="#googtrans(fr|ar)" class="lang-es lang-select" data-lang="ar">العربية</a></li>
+										<li><a href="#" class="lang-en lang-select" data-lang="fr">Français</a></li>
+										<li><a href="#" class="lang-es lang-select" data-lang="ar">العربية</a></li>
 									</ul>
 							  	</div>
 							</div>
@@ -247,7 +255,7 @@
 					</ul>
 				</div> <!-- /.header-right-widget -->
 			</div> <!-- /.theme-main-menu -->
-
+			
 	  	<!-- 
 			=============================================
 				Theme Main Banner One
@@ -296,61 +304,16 @@
 					                        </ul>
 					                        <div>
 					                            <div style="min-height: 450px;">											 
-													<br>
-													<div class="row shop-demo-filter">
-														<div class="col-md-2">
-															<div style="margin-top: 8px;">جهة :</div>
-														</div>
-														<div class="col-md-4">
-															
-															<select class="theme-select">
-																<option selected="selected" value="0">-المستوى الوطني-</option>
-																<option value="1">طنجة- تطوان -الحسيمة</option>
-																<option value="2">الشرق</option>
-																<option value="3">فاس- مكناس</option>
-																<option value="4">الرباط -سلا -القنيطرة</option>
-																<option value="5">بني ملال -خنيفرة</option>
-																<option value="6">الدار البيضاء-سطات</option>
-																<option value="7">مراكش- آسفي</option>
-																<option value="8">درعة -تافيلالت</option>
-																<option value="9">سوس- ماسة</option>
-																<option value="10">كلميم -واد نون</option>
-																<option value="11">العيون- الساقية الحمراء</option>
-																<option value="12">الداخلة- وادي الذهب</option>
-															</select>
-														</div>
-														<div class="col-md-2">
-														<div style="margin-top: 8px;"> عمالة أو إقليم :</div>
-													    </div>
-														<div class="col-md-4"> 
-															<select class="theme-select">
-																<option selected="selected" value="0">-اختر العمالة أو الإقليم-</option>
-																<option value="22">الحسيمة</option>
-																<option value="70">العرائش</option>
-																<option value="87">المضيق الفنيدق</option>
-																<option value="69">تطوان</option>
-																<option value="71">شفشاون</option>
-																<option value="67">طنجة أصيلة</option>
-																<option value="86">فحص أنجرة</option>
-																<option value="102">وزان</option>
-															</select>
-														</div>
- 
-														<div class="col-md-4">
-															<div style="margin-top: 8px;">الدائرة الإنتخابية البرلمانية :</div>
-															</div>
-															<div class="col-md-4">
-																
-																<select class="theme-select">
-																	<option value="Popularity">-الدوائر المحلية-</option> 
-																</select>
-															</div>
-													    <div class="col-md-4">
-															<button class="theme-button-two">ابحث<i class="fa fa-angle-left icon-right" aria-hidden="true"></i></button>
- 
-														 
-														</div>
+													<div id="canvas-holder"  >
+														<canvas id="chart-area"></canvas>
 													</div>
+													<button class="btn btn-primary btn-sm" id="randomizeData">Randomize </button>
+													<button class="btn btn-primary btn-sm" id="addDataset">Add Dataset</button>
+													<button class="btn btn-primary btn-sm" id="removeDataset">Remove Dataset</button>
+													<button class="btn btn-primary btn-sm" id="addData">Add Data</button>
+													<button class="btn btn-primary btn-sm" id="removeData">Remove Data</button>
+													<button class="btn btn-primary btn-sm" id="changeCircleSize">Semi/Full Circle</button>
+
 					                            </div>
 					                            <div style="min-height: 450px;">
 													<br>
@@ -401,61 +364,14 @@
 									
 					                            </div>
 					                            <div style="min-height: 450px;">											 
-													<br>
-													<div class="row shop-demo-filter">
-														<div class="col-md-2">
-															<div style="margin-top: 8px;">جهة :</div>
-														</div>
-														<div class="col-md-4">
-															
-															<select class="theme-select">
-																<option selected="selected" value="0">-المستوى الوطني-</option>
-																<option value="1">طنجة- تطوان -الحسيمة</option>
-																<option value="2">الشرق</option>
-																<option value="3">فاس- مكناس</option>
-																<option value="4">الرباط -سلا -القنيطرة</option>
-																<option value="5">بني ملال -خنيفرة</option>
-																<option value="6">الدار البيضاء-سطات</option>
-																<option value="7">مراكش- آسفي</option>
-																<option value="8">درعة -تافيلالت</option>
-																<option value="9">سوس- ماسة</option>
-																<option value="10">كلميم -واد نون</option>
-																<option value="11">العيون- الساقية الحمراء</option>
-																<option value="12">الداخلة- وادي الذهب</option>
-															</select>
-														</div>
-														<div class="col-md-2">
-														<div style="margin-top: 8px;"> عمالة أو إقليم :</div>
-													    </div>
-														<div class="col-md-4"> 
-															<select class="theme-select">
-																<option selected="selected" value="0">-اختر العمالة أو الإقليم-</option>
-																<option value="22">الحسيمة</option>
-																<option value="70">العرائش</option>
-																<option value="87">المضيق الفنيدق</option>
-																<option value="69">تطوان</option>
-																<option value="71">شفشاون</option>
-																<option value="67">طنجة أصيلة</option>
-																<option value="86">فحص أنجرة</option>
-																<option value="102">وزان</option>
-															</select>
-														</div>
- 
-														<div class="col-md-4">
-															<div style="margin-top: 8px;">الدائرة الإنتخابية البرلمانية :</div>
-															</div>
-															<div class="col-md-4">
-																
-																<select class="theme-select">
-																	<option value="Popularity">-الدوائر المحلية-</option> 
-																</select>
-															</div>
-													    <div class="col-md-4">
-															<button class="theme-button-two">ابحث<i class="fa fa-angle-left icon-right" aria-hidden="true"></i></button>
- 
-														 
-														</div>
+													<div id="container" style="width: 75%;">
+														<canvas id="canvas"></canvas>
 													</div>
+													<button class="btn btn-primary btn-sm" id="randomizeData1">Randomize</button>
+													<button class="btn btn-primary btn-sm" id="addDataset1">Add Dataset</button>
+													<button class="btn btn-primary btn-sm" id="removeDataset1">Remove Dataset</button>
+													<button class="btn btn-primary btn-sm" id="addData1">Add Data</button>
+													<button class="btn btn-primary btn-sm" id="removeData1">Remove Data</button>
 					                            </div>
 					                            <div style="min-height: 450px;">											 
 													<br>
@@ -513,6 +429,54 @@
 														 
 														</div>
 													</div>
+													<div class="row mt-20">
+														<div class="col-md-12">
+															<h4 class="strong">لائحة المنتخبين 
+
+															</h4>
+															<div class="table-responsive">
+																<table class="table">
+																	<thead>
+																		<tr>
+																		  <th>الدائرة الانتخابية</th>
+																		  <th>الإسم الشخصي والعائلي	</th>
+																		  <th>الانتماء السياسي</th>
+																		  <th>الرمز</th>
+																		  <th>الصورة</th>
+																		</tr>
+																	</thead>
+																	<tbody>
+																		<tr>
+																			<td class="price total-price"><span>الوطنية</span></td> 
+																			<td class="price total-price"><span>نبيل الماهيري</span></td> 
+																			<td class="price total-price"><span>PI</span></td> 
+																			<td class="product-thumbnails"><a href="#" class="product-img"><img src="images/PI.jpg" alt="" width="36px" height="auto"></a></td>
+																			<td class="product-thumbnails"><a href="#" class="product-img"><img src="images/shop/10.jpg" alt="" width="48px" height="auto"></a></td>
+																			
+																		</tr>
+																		<tr>
+																			<td class="price total-price"><span>الوطنية</span></td> 
+																			<td class="price total-price"><span>نبيل الماهيري</span></td> 
+																			<td class="price total-price"><span>PJD</span></td> 
+																			<td class="product-thumbnails"><a href="#" class="product-img"><img src="images/PJD.jpg" alt="" width="36px" height="auto"></a></td>
+																			<td class="product-thumbnails"><a href="#" class="product-img"><img src="images/shop/10.jpg" alt="" width="48px" height="auto"></a></td>
+																			
+																		</tr>
+
+																		<tr>
+																			<td class="price total-price"><span>الوطنية</span></td> 
+																			<td class="price total-price"><span>نبيل الماهيري</span></td> 
+																			<td class="price total-price"><span>PJD</span></td> 
+																			<td class="product-thumbnails"><a href="#" class="product-img"><img src="images/PAM.jpg" alt="" width="36px" height="auto"></a></td>
+																			<td class="product-thumbnails"><a href="#" class="product-img"><img src="images/shop/10.jpg" alt="" width="48px" height="auto"></a></td>
+																			
+																		</tr>
+																	</tbody>
+																</table>
+															</div> <!-- /.table-responsive -->
+														</div>
+
+													</div>
 					                            </div>
 					                        </div>
 					                    </div>
@@ -525,7 +489,7 @@
 					                        <!-- Nested Tab Navigation Menu -->
 					                        <ul class="nested-tab-menu clearfix">
 					                            <li><a>الهيئة الناخبة</a></li>
-					                            <li><a>لائحة الهيئات السياسية s</a></li>
+					                            <li><a>لائحة الهيئات السياسية</a></li>
 					                            <li><a>إحصائيات الترشيحات</a></li>
 					                            <li><a>النتائج</a></li>
 					                        </ul>
@@ -567,36 +531,24 @@
 					                        </ul>
 					                        <div>
 					                            <div>
-					                                <h5>Animals </h5>
-					                                <p>After a thorough review of a client’s circumstances and needs, our advisory team constructs an in-depth, actionable plan to address targeted goals.</p>
-					                                <div class="img-gallery row">
-								                    	<div class="col-lg-6"><img src="images/gallery/42.jpg" alt=""></div>
-								                    	<div class="col-lg-6"><img src="images/gallery/43.jpg" alt=""></div>
-								                    </div>
+													<br>
+					                                <h5>coming soon</h5>
+					                                <p></p>
+					                            </div>
+												<div>
+													<br>
+					                                <h5>coming soon</h5>
+					                                <p></p>
 					                            </div>
 					                            <div>
-					                                <h5>Food </h5>
-					                                <p>Rockefeller & Co. takes a long-term approach to wealth planning. While some individuals, families, family offices, foundations, endowments</p>
-					                                <div class="img-gallery row">
-								                    	<div class="col-lg-6"><img src="images/gallery/44.jpg" alt=""></div>
-								                    	<div class="col-lg-6"><img src="images/gallery/45.jpg" alt=""></div>
-								                    </div>
+													<br>
+					                                <h5>coming soon</h5>
+					                                <p></p>
 					                            </div>
-					                            <div>
-					                                <h5>Sports </h5>
-					                                <p>To help our clients pursue their investment goals, Rockefeller & Co. offers investment expertise and advice</p>
-					                                <div class="img-gallery row">
-								                    	<div class="col-lg-6"><img src="images/gallery/46.jpg" alt=""></div>
-								                    	<div class="col-lg-6"><img src="images/gallery/47.jpg" alt=""></div>
-								                    </div>
-					                            </div>
-					                            <div>
-					                                <h5>People </h5>
-					                                <p>Capco’s response is proven by our superb record of driving change through effective portfolio management and project delivery.</p>
-					                                <div class="img-gallery row">
-								                    	<div class="col-lg-6"><img src="images/gallery/42.jpg" alt=""></div>
-								                    	<div class="col-lg-6"><img src="images/gallery/43.jpg" alt=""></div>
-								                    </div>
+												<div>
+													<br>
+					                                <h5>coming soon</h5>
+					                                <p></p>
 					                            </div>
 					                        </div>
 					                    </div>
@@ -609,11 +561,32 @@
 					                        <!-- Nested Tab Navigation Menu -->
 					                        <ul class="nested-tab-menu clearfix">
 					                            <li><a>الهيئة الناخبة</a></li>
-					                            <li><a>لائحة الهيئات السياسية المشاركة												</a></li>
-					                            <li><a>إحصائيات الترشيحات												</a></li>
+					                            <li><a>لائحة الهيئات السياسية المشاركة</a></li>
+					                            <li><a>إحصائيات الترشيحات</a></li>
 					                            <li><a>النتائج</a></li>
 					                        </ul>
-					         
+											<div>
+					                            <div>
+													<br>
+					                                <h5>coming soon</h5>
+					                                <p></p>
+					                            </div>
+												<div>
+													<br>
+					                                <h5>coming soon</h5>
+					                                <p></p>
+					                            </div>
+					                            <div>
+													<br>
+					                                <h5>coming soon</h5>
+					                                <p></p>
+					                            </div>
+												<div>
+													<br>
+					                                <h5>coming soon</h5>
+					                                <p></p>
+					                            </div>
+					                        </div>
 					                    </div>
 					                </div>
 					            </div> <!-- /.tab-container -->
@@ -738,14 +711,265 @@
 		<script src="vendor/owl-carousel/owl.carousel.min.js"></script>
 		<!-- Fancybox -->
 		<script src="vendor/fancybox/dist/jquery.fancybox.min.js"></script>
+		<script src="js/chart.min.js"></script>
+		<script src="js/utils.js"></script>
+
 		<!-- Theme js -->
 		<script src="js/lang.js"></script>
 		<script src="js/theme.js"></script>
+
 		</div> <!-- /.main-page-wrapper -->
 		<script>
 	    if($('select').length) {
           $('.theme-select').selectize();
         }
 		</script>
+
+<script>
+	var randomScalingFactor = function() {
+		return Math.round(Math.random() * 100);
+	};
+
+	var config = {
+		type: 'doughnut',
+		data: {
+			datasets: [{
+				data: [
+					randomScalingFactor(),
+					randomScalingFactor(),
+					randomScalingFactor(),
+					randomScalingFactor(),
+					randomScalingFactor(),
+				],
+				backgroundColor: [
+					window.chartColors.red,
+					window.chartColors.orange,
+					window.chartColors.yellow,
+					window.chartColors.green,
+					window.chartColors.blue,
+				],
+				label: 'Dataset 1'
+			}],
+			labels: [
+				'Red',
+				'Orange',
+				'Yellow',
+				'Green',
+				'Blue'
+			]
+		},
+		options: {
+			responsive: true,
+			legend: {
+				position: 'top',
+			},
+			title: {
+				display: true,
+				text: 'الهيئة الناخبة حسب اللوائح الانتخابية المحصورة في 28 غشت 2016'
+			},
+			animation: {
+				animateScale: true,
+				animateRotate: true
+			}
+		}
+	};
+
+	window.onload = function() {
+		var ctx = document.getElementById('chart-area').getContext('2d');
+		window.myDoughnut = new Chart(ctx, config);
+		var ctx = document.getElementById('canvas').getContext('2d');
+		window.myHorizontalBar = new Chart(ctx, {
+			type: 'horizontalBar',
+			data: horizontalBarChartData,
+			options: {
+				// Elements options apply to all of the options unless overridden in a dataset
+				// In this case, we are setting the border of each horizontal bar to be 2px wide
+				elements: {
+					rectangle: {
+						borderWidth: 2,
+					}
+				},
+				responsive: true,
+				legend: {
+					position: 'right',
+				},
+				title: {
+					display: true,
+					text: 'إحصائيات الترشيحات'
+				}
+			}
+		});
+
+	};
+
+	document.getElementById('randomizeData').addEventListener('click', function() {
+		config.data.datasets.forEach(function(dataset) {
+			dataset.data = dataset.data.map(function() {
+				return randomScalingFactor();
+			});
+		});
+
+		window.myDoughnut.update();
+	});
+
+	var colorNames = Object.keys(window.chartColors);
+	document.getElementById('addDataset').addEventListener('click', function() {
+		var newDataset = {
+			backgroundColor: [],
+			data: [],
+			label: 'New dataset ' + config.data.datasets.length,
+		};
+
+		for (var index = 0; index < config.data.labels.length; ++index) {
+			newDataset.data.push(randomScalingFactor());
+
+			var colorName = colorNames[index % colorNames.length];
+			var newColor = window.chartColors[colorName];
+			newDataset.backgroundColor.push(newColor);
+		}
+
+		config.data.datasets.push(newDataset);
+		window.myDoughnut.update();
+	});
+
+	document.getElementById('addData').addEventListener('click', function() {
+		if (config.data.datasets.length > 0) {
+			config.data.labels.push('data #' + config.data.labels.length);
+
+			var colorName = colorNames[config.data.datasets[0].data.length % colorNames.length];
+			var newColor = window.chartColors[colorName];
+
+			config.data.datasets.forEach(function(dataset) {
+				dataset.data.push(randomScalingFactor());
+				dataset.backgroundColor.push(newColor);
+			});
+
+			window.myDoughnut.update();
+		}
+	});
+
+	document.getElementById('removeDataset').addEventListener('click', function() {
+		config.data.datasets.splice(0, 1);
+		window.myDoughnut.update();
+	});
+
+	document.getElementById('removeData').addEventListener('click', function() {
+		config.data.labels.splice(-1, 1); // remove the label first
+
+		config.data.datasets.forEach(function(dataset) {
+			dataset.data.pop();
+			dataset.backgroundColor.pop();
+		});
+
+		window.myDoughnut.update();
+	});
+
+	document.getElementById('changeCircleSize').addEventListener('click', function() {
+		if (window.myDoughnut.options.circumference === Math.PI) {
+			window.myDoughnut.options.circumference = 2 * Math.PI;
+			window.myDoughnut.options.rotation = -Math.PI / 2;
+		} else {
+			window.myDoughnut.options.circumference = Math.PI;
+			window.myDoughnut.options.rotation = -Math.PI;
+		}
+
+		window.myDoughnut.update();
+	});
+ 
+	var MONTHS = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
+	var color = Chart.helpers.color;
+	var horizontalBarChartData = {
+		labels: ['January', 'February', 'March', 'April', 'May', 'June', 'July'],
+		datasets: [{
+			label: 'Dataset 1',
+			backgroundColor: color(window.chartColors.red).alpha(0.5).rgbString(),
+			borderColor: window.chartColors.red,
+			borderWidth: 1,
+			data: [
+				randomScalingFactor(),
+				randomScalingFactor(),
+				randomScalingFactor(),
+				randomScalingFactor(),
+				randomScalingFactor(),
+				randomScalingFactor(),
+				randomScalingFactor()
+			]
+		}, {
+			label: 'Dataset 2',
+			backgroundColor: color(window.chartColors.blue).alpha(0.5).rgbString(),
+			borderColor: window.chartColors.blue,
+			data: [
+				randomScalingFactor(),
+				randomScalingFactor(),
+				randomScalingFactor(),
+				randomScalingFactor(),
+				randomScalingFactor(),
+				randomScalingFactor(),
+				randomScalingFactor()
+			]
+		}]
+
+	};
+
+ 
+	document.getElementById('randomizeData1').addEventListener('click', function() {
+		var zero = Math.random() < 0.2 ? true : false;
+		horizontalBarChartData.datasets.forEach(function(dataset) {
+			dataset.data = dataset.data.map(function() {
+				return zero ? 0.0 : randomScalingFactor();
+			});
+
+		});
+		window.myHorizontalBar.update();
+	});
+
+	var colorNames = Object.keys(window.chartColors);
+
+	document.getElementById('addDataset1').addEventListener('click', function() {
+		var colorName = colorNames[horizontalBarChartData.datasets.length % colorNames.length];
+		var dsColor = window.chartColors[colorName];
+		var newDataset = {
+			label: 'Dataset ' + (horizontalBarChartData.datasets.length + 1),
+			backgroundColor: color(dsColor).alpha(0.5).rgbString(),
+			borderColor: dsColor,
+			data: []
+		};
+
+		for (var index = 0; index < horizontalBarChartData.labels.length; ++index) {
+			newDataset.data.push(randomScalingFactor());
+		}
+
+		horizontalBarChartData.datasets.push(newDataset);
+		window.myHorizontalBar.update();
+	});
+
+	document.getElementById('addData1').addEventListener('click', function() {
+		if (horizontalBarChartData.datasets.length > 0) {
+			var month = MONTHS[horizontalBarChartData.labels.length % MONTHS.length];
+			horizontalBarChartData.labels.push(month);
+
+			for (var index = 0; index < horizontalBarChartData.datasets.length; ++index) {
+				horizontalBarChartData.datasets[index].data.push(randomScalingFactor());
+			}
+
+			window.myHorizontalBar.update();
+		}
+	});
+
+	document.getElementById('removeDataset1').addEventListener('click', function() {
+		horizontalBarChartData.datasets.pop();
+		window.myHorizontalBar.update();
+	});
+
+	document.getElementById('removeData1').addEventListener('click', function() {
+		horizontalBarChartData.labels.splice(-1, 1); // remove the label first
+
+		horizontalBarChartData.datasets.forEach(function(dataset) {
+			dataset.data.pop();
+		});
+
+		window.myHorizontalBar.update();
+	});
+</script>
 	</body>
 </html>
