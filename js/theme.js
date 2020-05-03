@@ -1,12 +1,6 @@
 // js Document
 
-    // Created on   : 26/02/2019.
-    // Last Update  : 07/04/2019.
-    // Theme Name   : Rogan - Creative Multi-Purpose HTML Template.
-    // Version      : 1.1.
-    // Author       : Creativegigs.
-    // Developed by : Jubayer al hasan. (me@heloshape.com)
-
+ 
 
 (function($) {
     "use strict";
