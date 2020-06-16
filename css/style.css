@@ -10031,6 +10031,22 @@ html[lang="ru"] .op-menu-one .ct-language__dropdown li a[data-lang="ru"] {color:
   width: 30px;
 }
 
+
+.agn-what-we-do{
+  background-image: url(../images/morocco.svg);    
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: unset;
+
+}
+
+@media (min-width: 992px){
+  .agn-what-we-do{ 
+    background-size: 34%;
+  
+  }
+
+}
 .agn-what-we-do .down-arrow  {
   transition: all .3s ease-in-out;
 }
